@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    background-image: url("/imgs/walpaper.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.loginBox {
+    /* border: 1px solid white; */
+    width: 340px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    border-radius: 22px;
+    /* box-shadow: 0 0 10px white; */
+    animation: bgcolor 2.5s infinite;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+form h2 {
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid purple;
+    margin-top: 16px;
+    width: 200px;
+    text-align: center;
+    border-radius: 44px;
+    padding: 5px;
+    text-shadow: 1px 1px 3px red;
+    
+}
+
+form input[type="email"],
+form input[type="password"] {
+    height: 40px;
+    width: 230px;
+    /* border-radius: 6px; */
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+
+form ::placeholder {
+    font-size: 1rem;
+    /* color: black; */
+}
+
+form .icon {
+    font-size: 23px;
+    color: red;
+}
+
+.button {
+    padding: 16px;
+}
+
+.button button {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.button a {
+    font-size: 14px;
+    color: blue;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+.loginBox p{
+    position: absolute;
+    /* border: 1px solid white; */
+    width: auto;
+    color: black;
+    top: 379px;
+    padding: 3px;
+    transform: scale(1.1);
+    white-space: nowrap;
+    font-weight: bold;
+}
+

@@ -1,0 +1,38 @@
+.m-auto{
+    margin: auto;
+}
+@keyframes bgcolor{
+    0%{
+        box-shadow: 0 0 20px white;
+    }
+    10%{
+        box-shadow: 0 0 20px rgb(156, 145, 145);
+    }
+    20%{
+        box-shadow: 0 0 20px rgb(207, 156, 156);
+    }
+    30%{
+    box-shadow: 0 0 20px rgb(184, 205, 115);
+    }
+    40%{
+    box-shadow: 0 0 10px rgb(201, 101, 101);
+    }
+    50%{
+    box-shadow: 0 0 20px rgb(94, 185, 199);
+    }
+    60%{
+    box-shadow: 0 0 20px rgb(79, 123, 235);
+    }
+    70%{
+    box-shadow: 0 0 20px rgb(122, 192, 17);
+    }
+    80%{
+    box-shadow: 0 0 20px rgb(205, 49, 153);
+    }
+    90%{
+    box-shadow: 0 0 20px rgb(30, 109, 62);
+    }
+    100%{
+    box-shadow: 0 0 20px white;
+    }
+}
