@@ -24,18 +24,24 @@
      position: relative;
 
     }
+    nav .sec2 div:nth-of-type(1) h2{
+    display: block;
+}
 
-    /*section 2 of navbar*/
-    nav .sec2 p{
-      display: none;
-    }
-    nav .sec2{
-      height: 200px;
-      font-size: 16vw;
-    }
-    nav .sec2 div:nth-of-type(1){
-      position: absolute;
-      left: 12vw;
+
+/*section 2 of navbar*/
+nav .sec2 p{
+  display: none;
+}
+nav .sec2{
+  height: 200px;
+  font-size: 16vw;
+}
+nav .sec2 div:nth-of-type(1){
+  position: absolute;
+  display: flex;
+  gap: 120vw;
+    left: 12vw;
     }
 
     /*walpaper of main section */

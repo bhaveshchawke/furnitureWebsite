@@ -75,6 +75,10 @@ nav .sec2  p:hover{
 }
 nav .sec2 div:nth-of-type(1){
     margin-left: 17px;
+
+}
+nav .sec2 div:nth-of-type(1) h2{
+    display: none;
 }
 main .walpaper{
     width: auto;
