@@ -361,3 +361,12 @@ footer div p:nth-of-type(1){
     margin: 30px 0;
     text-decoration: underline;
 }
+
+/* slide section */
+.slideSection{
+    display: none;
+}
+.slideSection2{
+    display: none;
+}
+
