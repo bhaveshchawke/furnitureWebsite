@@ -378,7 +378,7 @@ footer div p:nth-of-type(1){
 }
 /*slideSection2*/
 .slideSection2{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     position: absolute;
