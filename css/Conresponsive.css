@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
    
     nav{
-      width: 360vw;
+      width: 1400vw;
     }
     nav .sec1 #part2{
      display: none;
@@ -39,7 +39,7 @@
     }
     /*footer*/
     footer{
-        width: 354vw;
+        width: 400vw;
         height: 700px;
         display: flex;
         flex-direction: row;
