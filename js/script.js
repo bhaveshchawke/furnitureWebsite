@@ -31,12 +31,14 @@ let slider= document.getElementById("slider");
 let sliderSection=document.querySelector('.slideSection');
 let sliderSection2=document.querySelector('.slideSection2');
 slider.addEventListener('click',()=>{
-if(sliderSection.style.display==='none' || sliderSection.style.display==='' && sliderSection2.style.display==='none' || sliderSection2.style.display===''){
+if(sliderSection.style.display==='none' || sliderSection.style.display==='' && sliderSection2.style.display==='none' || sliderSection2.style.display==='' && slider.innerHTML===''||slider.innerHTML==='<i class="fa-solid fa-sliders"></i>'){
   sliderSection.style.display='flex';
   sliderSection2.style.display='flex';
+  slider.innerHTML='<i class="fa-solid fa-xmark"></i>';
 }else{
   sliderSection.style.display='none';
   sliderSection2.style.display='none';
+  slider.innerHTML='<i class="fa-solid fa-sliders"></i>';
 
 }
 });
