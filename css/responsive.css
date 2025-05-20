@@ -3,7 +3,7 @@
   @media (max-width: 600px) {
   
 
-    body{
+    body,html{
       overflow-x: hidden;
     }
     main{
