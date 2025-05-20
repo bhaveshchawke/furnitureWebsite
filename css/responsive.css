@@ -382,14 +382,14 @@ footer div p:nth-of-type(1){
 
 .aboutSection{
     background:linear-gradient(to bottom, #ff000030, #d600ff8f);
-   height: 100px;width: 100%;
-    margin: 15px auto;
-    border-radius: 12px;
+   height: auto;width: 100%;
+    margin: 1px 0;
+    border-radius: 0;
     box-shadow: 0 0 2px black;
     display: flex;
     /* font-size:  .2vw; */
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* justify-content: center; */
     /* align-items: center; */
@@ -399,19 +399,20 @@ footer div p:nth-of-type(1){
     color: yellow;
     text-shadow: 1px 1px 5px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 5vw;
 }
 .aboutSection h3{
     color: ghostwhite;
     /* text-shadow: 1px 1px 5px black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 4vw;
 }
 .aboutSection p{
     color: black;
     /* text-shadow: 1px 1px 5px black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 4vw;
+    padding: 8px;
 }
 
 
