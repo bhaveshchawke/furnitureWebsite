@@ -23,6 +23,8 @@
     }
     nav .sec1 #part1 a{
       font-size: 4vw;
+      position: relative;
+      right: 5px;
     }
     nav .sec1{
       height: 60px;
