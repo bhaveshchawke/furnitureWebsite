@@ -409,6 +409,7 @@ footer div p:nth-of-type(1){
     /* text-shadow: 1px 1px 5px black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4vw;
+    padding: 15px;
 }
 .aboutSection p{
     color: black;
