@@ -308,38 +308,7 @@ main{
     height: 543px;
     width: 1520px;
 }
-/*contact*/
-.contactForm{
-    /* bo   rder: 1px  solid  black; */
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contactForm input{
-height: 45px;
-width: 500px;
-background-color: rgba(255, 149, 0, 0.087);
-border: 0;
-outline: 0;
-font-size: 15px;
-}
-.contactForm button{
-    height: 50px;
-    width: 80px;
-    font-size: 15px;
-}
-.contactForm::placeholder{
-    font-size: 14px; 
-    text-align: center;   
-    
-}
-.contactForm button{
-    border: 0;
-    outline: 0;
-    background-color: rgba(165, 42, 42, 0.656);
-    color: white;
-}
+
 footer{
     display: flex;
     flex-direction: row;
