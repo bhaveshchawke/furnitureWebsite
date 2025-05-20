@@ -383,7 +383,10 @@ footer div p:nth-of-type(1){
 .aboutSection{
     background:linear-gradient(to bottom, #ff000030, #d600ff8f);
    height: auto;width: 100%;
-    margin: 1px 0;
+    /* margin: 1px 0; */
+    /* top:1px; */
+    right: 5px;
+    position: relative;
     border-radius: 0;
     box-shadow: 0 0 2px black;
     display: flex;
