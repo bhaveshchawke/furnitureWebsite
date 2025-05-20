@@ -22,7 +22,7 @@
      padding-left: 1vw;
     }
     nav .sec1 #part1 a{
-      font-size: 3.2vw;
+      font-size: 5vw;
       position: relative;
       right: 7px;
     }
@@ -31,7 +31,8 @@
       width: 100%;
       padding: 0 5vw;
      position: relative;
-     left: -15px;
+     left: -20px;
+     font-size: 2vw;
 
     }
     nav .sec2 div:nth-of-type(1) h2{
