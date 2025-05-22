@@ -197,6 +197,37 @@ nav .sec1 #part1  a{
 .slideSection2 a:hover{
   box-shadow: none;
 }
+/*search section*/
+.searchSection{
+   position: absolute;
+    top: 105px;
+    left: 60px;
+    z-index: 10002;
+}
+.searchSection input{
+    width: 0;
+    opacity: 0;
+    height: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    /* box-shadow: 1px 1px 4px black; */
+    background-color: mintcream;
+    padding: 2px;
+     transition: width 0.7s ease-in-out,opacity 0.6s ease-out;
+}
+#searchSymbol{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    top: 105px;
+    left: 40px;
+}
+#sec2 p{
+    transition: opacity 0.8s ease-in-out;
+}
 
 @keyframes fadeInMain {
   from {

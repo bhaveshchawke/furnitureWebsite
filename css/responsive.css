@@ -58,6 +58,9 @@ nav .sec2 div:nth-of-type(1){
       color: white;
       filter: drop-shadow(2px 3px 5px black);
     }
+    nav .sec2 #slider{
+    display: block;
+}
 
     /*walpaper of main section */
   main .walpaper{
@@ -481,6 +484,36 @@ footer div p:nth-of-type(1){
     transform: translateY(0);
   }
 }
-
+/*search section*/
+.searchSection{
+   position: fixed;
+    top: 130px;
+    left: 50px;
+    z-index: 10002;
+}
+.searchSection input{
+    width: 0;
+    opacity: 0;
+    height: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    /* box-shadow: 1px 1px 4px black; */
+    background-color: mintcream;
+    padding: 2px;
+     transition: width 0.7s ease-in-out,opacity 0.6s ease-out;
+}
+#searchSymbol{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    top: 132px;
+    left: 20px;
+}
+#sec2 p{
+    transition: opacity 0.8s ease-in-out;
+}
 
   }

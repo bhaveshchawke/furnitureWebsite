@@ -67,6 +67,7 @@ nav .sec2 div:nth-of-type(2){
     white-space: nowrap;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 46px;
 }
 nav .sec2  p:hover{
@@ -372,4 +373,31 @@ footer div p:nth-of-type(1){
 .slideSection2{
     display: none;  
 }
-
+/*search section*/
+.searchSection{
+   position: absolute;
+    top: 87px;
+    right: 50px;
+    z-index: 10002;
+}
+.searchSection input{
+    width: 0;
+    opacity: 0;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    /* box-shadow: 1px 1px 4px black; */
+    background-color: mintcream;
+    padding: 2px;
+     transition: width 0.7s ease-in-out,opacity 0.6s ease-out;
+}
+#searchSymbol{
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+}
+#sec2 p{
+    transition: opacity 0.8s ease-in-out;
+}

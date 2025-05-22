@@ -43,5 +43,32 @@ if(sliderSection.style.display==='none' || sliderSection.style.display==='' && s
 }
 });
 
+//searchSection
+
+let search=document.querySelector('.searchSection input');
+let searchSymbol=document.querySelector('#searchSymbol');
+let sec2=document.querySelectorAll('#sec2 p');
+
+
+let isOpen = false;
+
+searchSymbol.addEventListener('click', () => {
+  if (!isOpen) {
+    search.style.width = '40vw';
+    search.style.opacity = '1';
+    searchSymbol.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    searchSymbol.style.color='red';
+    sec2.forEach(p => p.style.opacity = '0');
+    isOpen = true;
+  } else {
+    search.style.width = '0';
+    search.style.opacity = '0';
+    searchSymbol.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i>';
+    searchSymbol.style.color='black';
+    sec2.forEach(p => p.style.opacity = '1');
+    isOpen = false;
+  }
+});
+
   
 
