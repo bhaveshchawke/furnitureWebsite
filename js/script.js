@@ -70,5 +70,16 @@ searchSymbol.addEventListener('click', () => {
   }
 });
 
+//theme section
+let theme=document.querySelector('.theme');
+// isActive=false;
+
+theme.addEventListener('click',()=>{
+  
+    theme.classList.toggle('themeActive')
+    document.body.classList.toggle('bgtheme')
+
+})
+
   
 
