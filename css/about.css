@@ -463,7 +463,7 @@ font-size: 15px;
 }
 /*search section*/
 .searchSection{
-   position: absolute;
+   position: fixed;
     top: 87px;
     right: 360px;
     z-index: 10002;
