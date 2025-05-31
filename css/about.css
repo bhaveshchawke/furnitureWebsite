@@ -117,7 +117,7 @@ footer{
     font-size: 16px;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 footer div{
     width: 300px;
@@ -487,4 +487,10 @@ font-size: 15px;
 }
 #sec2 p{
     transition: opacity 0.8s ease-in-out;
+}
+.slideSection{
+display: none;
+}
+.slideSection2{
+display: none;
 }

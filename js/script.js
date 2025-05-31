@@ -89,7 +89,7 @@ function scrollView(element1, element2) {
     element2.scrollIntoView({ behavior: "smooth" });
   });
 }
-//first block
+//first part
 let diningRoom = document.getElementById("diningRoom"); //sec1 first p
 let section3 = document.querySelector(".section3");//section 3
 scrollView(diningRoom,section3);
@@ -105,11 +105,24 @@ let section2=document.querySelector('.section2')//section2
 scrollView(allfurnitures,section2);
 
 //fourth part
-let collection =document.getElementById('collection');
-let section1=document.querySelector('.section1');
+let collection =document.getElementById('collection');// p of sec2
+let section1=document.querySelector('.section1');//section1
 scrollView(collection,section1);
 
 //fift part
-let livingRoom=document.getElementById('livingRoom');
-let section6=document.querySelector('.section6');
+let livingRoom=document.getElementById('livingRoom');//p of sec2
+let section6=document.querySelector('.section6');//section6
 scrollView(livingRoom,section6);
+
+
+//for mobile screen 
+let mobileDiningRoom = document.getElementById("MdiningRoom");
+let mobileCarpainter = document.getElementById("Mcarpainter");
+let mobileAllfurnitures = document.getElementById("MlivingRoom"); 
+// let mobileCollection = document.getElementById("MCollection");
+let mobileLivingRoom = document.getElementById("MlivingRoom");
+
+scrollView(mobileDiningRoom,section3);
+scrollView(mobileCarpainter,section4);
+scrollView(mobileLivingRoom,section6);
+scrollView(mobileAllfurnitures,section2);
